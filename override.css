@@ -1,0 +1,32 @@
+div[data-testid="DMDrawer"] {
+  display: none;
+}
+
+div[data-testid="SideNav_AccountSwitcher_Button"] {
+  display: none;
+}
+
+div[data-testid="sidebarColumn"] {
+  visibility: hidden !important;
+}
+
+form[aria-label="Buscar en Twitter"][role="search"] {
+  visibility: visible !important;
+}
+
+@media (min-width: 1800px) {
+  form[aria-label="Buscar en Twitter"][role="search"] {
+    visibility: visible !important;
+    position: fixed;
+    width: 500px;
+    right: 100px;
+    top: 8px;
+  }
+}
+
+header {
+  align-items: center !important;
+}
+div[data-testid="primaryColumn"] {
+  max-width: 650px;
+}
